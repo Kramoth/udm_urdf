@@ -29,7 +29,7 @@ Dans le dossier urdf du package, il y a box.urdf, cylinder.urdf, sphere.urdf, me
 Pour afficher main.urdf, dans un terminal taper la commande suivante:
 
 ```sh
-roslaunch udm_urdf check_urdf.launch model:='$(find udm_urdf)/urdf/main.urdf'
+roslaunch urdf_tutorial display.launch model:='$(find udm_urdf)/urdf/main.urdf'
 ```
 
 Attention les single quote sont importants.
